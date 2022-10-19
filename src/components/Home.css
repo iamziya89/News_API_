@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    /* background-color: rgb(17, 3, 3); */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk1dDiist2BGA6FpAeZQppq8kkncabUlqF6g&usqp=CAU);
+    height: 80px;
+
+}
+
+
+.bannerHead{
+    background-color: aqua;
+    color: blueviolet;
+
+}
+
+.headerNav{
+    background-color: tomato;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.headerNav a{
+    color: white;
+    
+}
+
+.headerNav a:hover{
+    color: aqua;
+}
+
+
+.searchInput{
+    display: flex;
+    background-color: blue;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    justify-content:space-evenly;
+}
+
+
+
+.css-input {
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    border-width: 3px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 11px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.css-input:focus {
+    outline:none;
+}
+
+.inputSubmit {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    width: 100px;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    /* padding: 10px; */
+    text-decoration: none;
+  }
+  
+  .inputSubmit:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .heading{
+    background-color: tomato;
+  }
+
+
+/* ------Footer----- */
+
+.foot {
+    background-color: rgb(42, 197, 76);
+    color: white;
+}
+
+
+
