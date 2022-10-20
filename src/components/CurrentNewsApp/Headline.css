@@ -1,0 +1,198 @@
+.News-text{
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 5px;
+
+}
+
+
+/* InputArea */
+.Head_Input_Area {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.News-input {
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
+.Search_Btn {
+  border-radius: 10px;
+  background-color: aqua;
+  color: black;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+}
+.Search_Btn:hover {
+  background-color: lightsalmon;
+  color: black;
+}
+
+/* Data Part */
+.News_Cart{
+  height: 470px;
+  width: 550px;
+   margin: 10px;
+   padding-bottom: 10px;
+  background-color: white;
+  box-shadow: 0 0 4px #6d6d6d;
+  align-items: center;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 2px solid wheat;
+  overflow: scroll;
+  
+}
+.fa-spin{
+  text-align: center;
+  margin-top: 10%;
+}
+.News_Data{
+  padding: 20px;
+}
+ img{
+  height: fit-content;
+    width: 500px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.Title{
+  color: red;
+  font-weight: bold;
+}
+
+.post-button_area  {
+  display: flex;
+  flex-direction: row;
+  display: inline;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+/* Icons Part */
+.Three-Btn{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.fa-heart{
+  margin-left: 10px;
+}
+.fa-heart:hover{
+color: red;
+background-position:right ;
+animation: animate .8s steps(28) 1;
+}
+@keyframes animate {
+  0%{
+    background-position: left;
+  }
+  100%{
+    background-position: right;
+  }
+}
+
+.fa-bookmark:hover{
+color: blue;
+
+}
+.SavedUnSaved{
+  margin-left: 20%;
+  
+}
+.ReadMore-Btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+
+/* Activity Items Part */
+.like_icons{
+  margin-left: 10px;
+  margin-top: 0%;
+}
+.fa-thumbs-down{
+}
+.LikeDislike_Count{
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  margin-left: 10px;
+}
+.post_comment{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 10px;
+}
+.post_time{
+  font-size:small;
+  margin-left: 10px;
+}
+#id {
+  height: 1000px;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+
+}
+
+.Likes_Count{
+margin-left: 17px;
+}
+.add-comment{
+  display: flex;
+  margin-left: 10px;
+  justify-content: flex-end;
+  
+}
+.News_comment_area{
+  border: none;
+  outline: none;
+  width: 350px;
+}
+.Comment_Btn{
+  display: flex;
+  border-radius: 10px;
+  border: 2px solid blue;
+  align-self: flex-end;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+
+
+}
+.Input_Comment{
+  width: 100%;
+  height: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+}
+.News_Delete_Btn{
+  text-align: center;
+  margin: auto;
+}
+.fa-trash{
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.fa-trash:hover{
+  color: red;
+}
